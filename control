@@ -4,8 +4,8 @@ Architecture: iphoneos-arm
 Section: Utilities
 Depends: ultrasn0w(<=1.2)
 Installed-Size: 4096
-Name: ultrasn0w fixer for 4.3b2
-Description: Works around ultrasn0w issues on 4.3b2 FW
+Name: ultrasn0w fixer for 4.3.
+Description: Works around ultrasn0w issues on 4.3.
 Author: msft.guy <msft.guy@gmail.com>
-Maintainer: msft.guy <msft.guy@gmail.com>
-Homepage: http://msftguy.blogspot.com/
+Maintainer: iH8sn0w <ih8sn0wydaz@gmail.com>
+Homepage: http://ih8sn0w.com/
