@@ -16,26 +16,19 @@ static char* (*s_orig_getsectdatafromheader) (
 							   const char* sectname,
 							   uint32_t* size);
 
-static const char* xgold_libname = "/var/stash/share/ultrasn0w/ultrasn0w-xgold608.dylib";
+iPhone 4 //static const char* xgold_libname = "/Library/MobileSubstrate/DynamicLibraries/ultrasn0w.dylib";
+iPhone 3G[S] //static const char* xgold_libname = "/private/var/stash/share/ultrasn0w/ultrasn0w-xgold608.dylib";
 
 typedef struct {size_t symOff; size_t refOff;} REF_ENTRY;
 
 REF_ENTRY ref_table[] = {
-	//ARMv7 Beta1
+	//4.3 Gold Master
 	//"+xsimstate=1"
-	{0xEBA7C, 0x33850}, 
+	{0xED754, 0x0345A4},
 	//"Sending internal notification %s (%d) params={%d, %d, %p}"
-	{0xF2B1C, 0x5F5D0}, 
+	{0xF47A8, 0x0603F8},
 	//"activation ticket accepted... drive thru"
-	{0xEB9E4, 0x3341C},
-	
-	//ARMv7 Beta2
-	//"+xsimstate=1"
-	{0xEC844, 0x033308},
-	//"Sending internal notification %s (%d) params={%d, %d, %p}"
-	{0xF38F4, 0x05F1E0}, 
-	//"activation ticket accepted... drive thru"
-	{0xEC7AC, 0x32ED4},
+	{0xED6BC, 0x34170},
 	
 };
 
